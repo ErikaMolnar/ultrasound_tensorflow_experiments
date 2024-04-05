@@ -1,6 +1,6 @@
 # TensorFlow Model for Breast Cancer Detection with Data Leakage Analysis
 
-This repository contains a TensorFlow implementation for detecting breast fibroadenoma from ultrasound images, showcasing the journey through data leakage identification to achieving a 43% accuracy rate on the corrected dataset. For those interested in the improved model using PyTorch with an 84% accuracy rate, please visit the [PyTorch Model Repository](https://github.com/username/pytorch-breast-cancer-detection).
+This repository contains a TensorFlow implementation for detecting breast fibroadenoma from ultrasound images, showcasing the journey through data leakage identification to achieving a 43% accuracy rate on the corrected dataset. For those interested in the improved model using PyTorch with an 84% accuracy rate, please visit the [PyTorch Model Repository](https://github.com/ErikaMolnar/ultrasound_classification).
 
 ## Overview
 
@@ -27,7 +27,7 @@ After addressing the data leakage, the TensorFlow model's performance settled at
 The detailed exploration into the causes of the reduced accuracy post-data leakage correction is documented, along with the limitations encountered during the TensorFlow model's development.
 
 ## Transition to PyTorch
-Encouraged by the need for improved performance, a subsequent model was developed using PyTorch, achieving a remarkable 84% accuracy. For complete details on the PyTorch model, please refer to the [PyTorch Model Repository](https://github.com/username/pytorch-breast-cancer-detection).
+Encouraged by the need for improved performance, a subsequent model was developed using PyTorch, achieving a remarkable 84% accuracy. For complete details on the PyTorch model, please refer to the [PyTorch Model Repository](https://github.com/ErikaMolnar/ultrasound_classification).
 
 ## Conclusion
 This repository not only documents the technical journey of developing a machine learning model for a critical healthcare application but also emphasizes the importance of vigilance against data leakage, illustrating the stark differences in outcomes between TensorFlow and PyTorch implementations.
